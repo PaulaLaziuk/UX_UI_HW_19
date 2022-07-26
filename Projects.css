@@ -66,8 +66,7 @@ nav {
 .contact {
     order:3;
 }
-button {
-    margin-left: 20px;
+.contact button {
     padding: 10px 25px;
     background-color: #244B74;
     border: 1px #244B74 solid;
@@ -77,7 +76,7 @@ button {
     color: white;
 }
 
-button:hover {
+.contact button:hover {
     background-color: white;
     border: 1px white solid;
     color: black;
@@ -107,7 +106,6 @@ button:hover {
     flex-direction: row;
     height: 400px;
     background-color: white;
-    margin-bottom: 5%;
     position: relative;
     border-radius: 25px;
     box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
@@ -157,12 +155,29 @@ button:hover {
     font-weight: 100;
 }
 
+.FDA button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.FDA button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
 .project2{
     display: flex;
     flex-direction: row;
     height: 400px;
     background-color: white;
-    margin-bottom: 5%;
     position: relative;
     border-radius: 25px;
     box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
@@ -210,12 +225,29 @@ button:hover {
     font-weight: 100;
 }
 
+.Roomies button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.Roomies button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
 .project3{
     display: flex;
     flex-direction: row;
     height: 400px;
     background-color: white;
-    margin-bottom: 5%;
     position: relative;
     border-radius: 25px;
     box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
@@ -269,8 +301,27 @@ button:hover {
     font-weight: 100;
 }
 
+.TravelPoints button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.TravelPoints button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
 .seeMore h4{
     font-size:24px;
+    margin-top: 5%;
     margin-bottom: 1rem;
     cursor:pointer;
     font-weight: 100;
