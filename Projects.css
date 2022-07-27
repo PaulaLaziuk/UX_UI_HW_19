@@ -12,7 +12,6 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-/*    background-color: white; */
 }
 
 li, a, button {
@@ -59,7 +58,7 @@ nav {
 }
 
 .nav_links li a:hover {
-    color: #244B74;
+    color: white;
     text-decoration: underline;
 }
 
@@ -67,20 +66,20 @@ nav {
     order:3;
 }
 .contact button {
-    padding: 10px 25px;
-    background-color: #244B74;
-    border: 1px #244B74 solid;
+    margin-left: 20px;
+    padding: 5px 20px;
+    border: 2px #244B74 solid;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3x ease 0s;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 .contact button:hover {
-    background-color: white;
-    border: 1px white solid;
-    color: black;
-    font-weight: 400;
+    background-color: #244B74;
+    border: 2px #244B74 solid;
+    color: white;
 }
 
 /*body styling*/

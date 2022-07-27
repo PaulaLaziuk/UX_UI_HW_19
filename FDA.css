@@ -61,7 +61,7 @@ nav {
 .contact {
     order:3;
 }
-button {
+.contact button {
     margin-left: 20px;
     padding: 5px 20px;
     border: 2px #244B74 solid;
@@ -72,7 +72,7 @@ button {
     background-color: white;
 }
 
-button:hover {
+.contact button:hover {
     background-color: #244B74;
     border: 2px #244B74 solid;
     color: white;

@@ -11,7 +11,6 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-/*    background-color: white; */
 }
 
 li, a, button {
@@ -27,8 +26,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px 10%;
-    background-color: white;
-    /*border-bottom: 3px #373F47 solid;*/
+    width: 100%;
 }
 
 .logo {
@@ -53,31 +51,38 @@ nav {
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    color:white;
 }
 
 .nav_links li a:hover {
-    color: #244B74;
+    color: white;
     text-decoration: underline;
 }
 
 .contact {
     order:3;
 }
-button {
+.contact button {
     margin-left: 20px;
-    padding: 10px 25px;
-    background-color: #244B74;
-    border: 1px #244B74 solid;
+    padding: 5px 20px;
+    border: 2px white solid;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3x ease 0s;
     color: white;
+    background-color: #ffffff00;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
 }
 
-button:hover {
-    background-color: #6E8EA7;
-    border: 1px #6E8EA7 solid;
+.contact button:hover {
+    background-color: #244B74;
+    border: 2px #244B74 solid;
     color: white;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
 }
 
 /*body styling*/
@@ -139,6 +144,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2.5rem;
 }
 
 .seeMyWork a{
