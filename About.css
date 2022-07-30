@@ -256,23 +256,19 @@ body{
     cursor: pointer;
 }
 
-.btn.btn-blue{
-    background: aquamarine;
+.btn-blue{
+    background: #657C9A;
     color: white;
-    border-color: aquamarine;
     transition: all 0.5sec ease-in-out;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 1px #657C9A solid;
 }
 
-.btn.btn-blue:hover{
-    background: transparent;
-    border-color: aquamarine;
-    color: white;
-}
-
-.btn.btn-white:hover{
-    background: aquamarine;
-    border-color: aquamarine;
-    color: #fff;
+.btn-blue:hover{
+    background-color: #244B74;
+    border: 1px #244B74 solid;
+    cursor: pointer;
 }
 
 .about-para p{

@@ -387,6 +387,7 @@ nav {
     font-weight: 100;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .low_v_high2{
@@ -454,6 +455,14 @@ nav {
     flex-direction: column;
     width: 80%;
     align-items: center;
+    justify-content: center;
+}
+
+.tests{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .testing h2{
@@ -472,19 +481,30 @@ nav {
     flex-direction: row;
     margin-top:5%;
     margin-bottom:5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh_test1_img1 img{
     width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh_test1_img2 img{
     width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh1_text{
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh_test2{
@@ -492,6 +512,8 @@ nav {
     flex-direction: row;
     margin-top:5%;
     margin-bottom:5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh_test2_img1 img{
@@ -512,6 +534,8 @@ nav {
     flex-direction: row;
     margin-top:5%;
     margin-bottom:5%;
+    align-items: center;
+    justify-content: center;
 }
 
 .lh_test3_img1 img{
