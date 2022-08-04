@@ -116,9 +116,7 @@ body{
 
 .about-img img{
     display: block;
-    height: 300px;
-    position: relative;
-    left: -30px;
+    height: 200px;
 }
 
 .about-img{
